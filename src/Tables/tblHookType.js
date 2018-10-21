@@ -1,9 +1,8 @@
 const tblHookType = [
       {
-         ID: 1,
-         HookType: "Circle"
+            ID: 1,
+            HookType: "Circle"
       }
-   ]
+]
 
-   export default tblHookType;
-  
+export default tblHookType;

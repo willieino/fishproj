@@ -1,8 +1,8 @@
 const tblLineStyle = [
       {
-         ID: 1,
-         LineStyle: "Braid"
+            ID: 1,
+            LineStyle: "Braid"
       }
-   ]
+]
 
-   export default tblLineStyle;
+export default tblLineStyle;

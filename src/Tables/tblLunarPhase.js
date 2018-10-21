@@ -1,8 +1,8 @@
 const tblLunarPhase = [
       {
-         ID: 2,
-         LunarPhase: "Full"
+            ID: 2,
+            LunarPhase: "Full"
       }
-   ]
+]
 
-   export default tblLunarPhase;
+export default tblLunarPhase;

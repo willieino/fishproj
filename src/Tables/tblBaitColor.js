@@ -1,13 +1,12 @@
-const tblBaitColor =  [
+const tblBaitColor = [
       {
-         ID: 1,
-         BaitColor: "Pumpkin"
+            ID: 1,
+            BaitColor: "Pumpkin"
       },
       {
-         ID: 2,
-         BaitColor: "Green"
+            ID: 2,
+            BaitColor: "Green"
       }
-   ]
+]
 
-   export default tblBaitColor;
-  
+export default tblBaitColor;

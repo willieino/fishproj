@@ -1,125 +1,158 @@
 .App {
-  text-align: center;
-  border: 2px solid pink;
-  height: 600px;
-  background-color: black
+    text-align: center;
+    border: 2px solid pink;
+    height: 100%;
+    background-color: black
 }
 
+body {
+background-color: black;
+
+}
 .App-header {
-  background-color: rgb(0, 0, 0);
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  color: white;
- /*  border: 2px solid purple; */
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    /*  border: 2px solid purple; */
 }
 
 .main-container {
-display: flex;
-flex-direction: row;
-height: 300px;
-/* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* border: 2px solid blue;  */
 }
 
 .main-display {
-  max-width: 100%;
-  width: 100%;
-  color: white;
-  font-size: 24px;
-  text-align: left;
-  padding: 10px;
-  /* border: 2px solid green; */
+    max-width: 100%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    /* background-image: url('./Graphics/bass_biggest_bg_dk.jpg'); */
+    /* border: 2px solid green; */
 }
 
 .nav {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  width: 100%;
-  /*  border: 2px solid red;  */
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+    /*  border: 2px solid red;  */
 }
 
 .nav-left {
-  max-width: 192px;
-width: 20%;
-font-size: 20px;
-background-color: rgb(20, 20, 20);
-height: 380px;
-  /* border: 2px solid orange; */
+    max-width: 192px;
+    width: 20%;
+    font-size: 20px;
+    background-color: rgb(20, 20, 20);
+    /* background-image: url('./Graphics/menuBoxLt.jpg'); */
+    height: 380px;
+    /* border: 2px solid orange; */
 }
 
 .nav-list {
-  list-style-type: none;
-  text-align: left;
-  margin: 0;
-  line-height: 44px;
- 
-  padding: 0;
-  padding-left: 0px;
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
- /*  border: 2px solid gray; */
- 
-  
-
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    line-height: 44px;
+    padding: 0;
+    padding-left: 0px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /*  border: 2px solid gray; */
 }
 
 .nav-left-item {
-  margin-left: 5px;
-  color: white;
-  cursor: pointer;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
 }
 
 .nav-left-item:hover {
-  color: rgb(114, 182, 228);
-  background-color: black;
+    color: rgb(114, 182, 228);
+    background-color: black;
 }
 
 .nav-button {
-color: rgb(150, 150, 150);
-font-weight: bold;
-background-color: rgb(20, 20, 20);
-padding: 4px;
-padding-left: 10px;
-padding-right: 10px;
-border-color: steelblue;
-border-radius: 15px;
-margin-left: 0px;
-
-
+    color: rgb(150, 150, 150);
+    font-weight: bold;
+    background-color: rgb(20, 20, 20);
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: steelblue;
+    border-radius: 15px;
+    margin-left: 0px;
 }
+
 .nav-button:hover {
-background-color: black;
-color: rgb(114, 182, 228);
+    background-color: black;
+    color: rgb(114, 182, 228);
 }
 
 #logo {
-background-color: black;
-margin-right: 0px;
+    background-color: black;
+    margin-right: 0px;
 }
 
 .catch-data {
-border: 1px solid gray;
-width: 30%;
-text-align-last: left;
-display: flex;
+    border: 1px solid gray;
+    width: 30%;
+    text-align-last: left;
+    display: flex;
 }
 
 .style {
-margin-left: 20px;
-color: rgb(69, 96, 250);
+    margin-left: 20px;
+    color: rgb(69, 96, 250);
 }
 
 .style-text {
-  font-size: 24px;
-color: gray;
+    font-size: 24px;
+    color: gray;
 }
 
-.main-display {
+.trip {
+  border-radius: 10px;
+  width: 300px;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(36, 97, 158);
+}
 
+.trip-container {
+/* border: 2px solid red; */
 
 }
+
+.trip-header {
+/* border: 2px solid brown; */
+background-color: rgb(4, 55, 90);
+padding-top: 6px;
+padding-bottom: 6px;
+}
+
+.input-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 80%;
+  padding-left: 10px;
+  
+  }
+
+  .button-container {
+/* border: 2px solid orange; */
+height: 50px;
+
+  }
