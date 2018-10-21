@@ -1,0 +1,32 @@
+{
+   "tblReels": [
+      {
+         "ID": "2",
+         "Reel": "Shimano"
+      },
+      {
+         "ID": "3",
+         "Reel": "Quantuum"
+      },
+      {
+         "ID": "4",
+         "Reel": "penn"
+      },
+      {
+         "ID": "5",
+         "Reel": "Shimano Sedona"
+      },
+      {
+         "ID": "6",
+         "Reel": "Quantuum Spinning"
+      },
+      {
+         "ID": "7",
+         "Reel": "Shimano Curado"
+      }
+   ],
+   "_xmlns:od": "urn:schemas-microsoft-com:officedata",
+   "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+   "_xsi:noNamespaceSchemaLocation": "tblReels.xsd",
+   "_generated": "2018-10-20T16:29:06"
+}

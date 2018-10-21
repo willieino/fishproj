@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../App.css';
 import CatchData from "./CatchData"
-import tblStyle from "./tbl-Style"
+import tblStyle from "../Tables/tbl-Style"
 
 class MainDisplay extends Component {
   constructor (props) {

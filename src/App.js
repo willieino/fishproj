@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import Nav from "./Nav";
-import MainDisplay from "./mainDisplay"
-import NavLeft from "./NavLeft"
+import Nav from "./Components/Nav";
+import MainDisplay from "./Components/mainDisplay"
+import NavLeft from "./Components/NavLeft"
 
 class App extends Component {
   constructor () {

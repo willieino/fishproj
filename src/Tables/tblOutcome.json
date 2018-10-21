@@ -1,0 +1,20 @@
+{
+   "tblOutcome": [
+      {
+         "ID": "1",
+         "Outcome": "Released"
+      },
+      {
+         "ID": "2",
+         "Outcome": "Kept"
+      },
+      {
+         "ID": "3",
+         "Outcome": "lost it"
+      }
+   ],
+   "_xmlns:od": "urn:schemas-microsoft-com:officedata",
+   "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+   "_xsi:noNamespaceSchemaLocation": "tblOutcome.xsd",
+   "_generated": "2018-10-20T16:28:58"
+}

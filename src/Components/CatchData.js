@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import tblStyle from "./tbl-Style" 
-import './App.css';
+import tblStyle from "../Tables/tbl-Style" 
+import '../App.css';
 
 class CatchData extends Component {
   constructor (props) {
