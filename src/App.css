@@ -29,6 +29,8 @@ height: 300px;
   width: 100%;
   color: white;
   font-size: 24px;
+  text-align: left;
+  padding: 10px;
   /* border: 2px solid green; */
 }
 
@@ -98,7 +100,26 @@ color: rgb(114, 182, 228);
 #logo {
 background-color: black;
 margin-right: 0px;
+}
 
+.catch-data {
+border: 1px solid gray;
+width: 30%;
+text-align-last: left;
+display: flex;
+}
+
+.style {
+margin-left: 20px;
+color: rgb(69, 96, 250);
+}
+
+.style-text {
+  font-size: 24px;
+color: gray;
+}
+
+.main-display {
 
 
 }

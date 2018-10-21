@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
 import './App.css';
+import CatchData from "./CatchData"
+import tblStyle from "./tbl-Style"
 
 class MainDisplay extends Component {
-  constructor () {
-    super();
+  constructor (props) {
+    super(props);
 
-    this.state=({  angler: ""})
+    this.state = {  angler: ""}
 
   }
   render() {
     
     return (
-        <div className="main-display">
-        all the tables will be displayed here
-        
-        </div>
+        <div className="main-display">Click on the Items to Add a fishing Style
+        {tblStyle.map((styles, index) => {
+  return <CatchData key={styles.ID} style={styles.Style} />
+})}  
+    </div>
+      
+      
     );
   }
 }
